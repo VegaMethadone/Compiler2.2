@@ -1,0 +1,17 @@
+void print(int x);
+
+int factorial(int a) {
+    if (a == 1) {
+        int b = 1;
+        return b;
+    }
+    int b = factorial(a - 1);
+    return b;
+}
+
+
+void main() {
+    int  a  = 5;
+    int b = factorial(a);
+    print(x);
+}
